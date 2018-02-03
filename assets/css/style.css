@@ -1,0 +1,22 @@
+.header {
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url("./assets/images/dust_scratches.png");
+}
+
+.title {
+    background-color: #4aaaa5;
+}
+
+.main, .sidebar{
+    background-color: white;
+}
+
+.footer {
+    background-color: #777;
+    border-top: 8px solid #4aaaa5;
+    height: 75px;
+    padding:10px;
+}
