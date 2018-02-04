@@ -1,17 +1,42 @@
 .header {
     margin-bottom: 10px;
+    background-color: white;
 }
 
 body {
-    background-image: url("./assets/images/dust_scratches.png");
+    background-image: url("../images/dust_scratches.png");
+}
+
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.main h2, .sidebar h3 {
+    color: #4aaaa5;
 }
 
 .title {
     background-color: #4aaaa5;
+    padding-top: 5px;
+    color: white;
+}
+
+.main-row {
+    display:flex; 
+    flex-wrap:wrap;
 }
 
 .main, .sidebar{
     background-color: white;
+    padding: 10px 15px;
+}
+
+.sidebar {
+    height:150px;
 }
 
 .footer {
