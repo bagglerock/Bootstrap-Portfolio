@@ -19,7 +19,11 @@ h2 {
     color: #4aaaa5;
 }
 
-.title {
+h6 {
+    color: white;
+}
+
+.title{
     background-color: #4aaaa5;
     padding-top: 5px;
     color: white;
