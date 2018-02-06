@@ -1,5 +1,4 @@
 .header {
-    margin-bottom: 10px;
     background-color: white;
 }
 
@@ -7,15 +6,11 @@ body {
     background-image: url("../images/dust_scratches.png");
 }
 
-h2, h3 {
+h2, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2 {
-    font-weight: bold;
-}
-
-.main h2, .sidebar h3 {
+.main h2, .sidebar h4 {
     color: #4aaaa5;
 }
 
@@ -25,7 +20,6 @@ h6 {
 
 .title{
     background-color: #4aaaa5;
-    padding-top: 5px;
     color: white;
 }
 
