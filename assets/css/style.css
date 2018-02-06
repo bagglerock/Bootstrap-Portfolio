@@ -15,11 +15,18 @@ h1, h2, h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #4aaaa5;
-  }
+}
 
 header {
-    background-color: white;
     border-bottom: solid #777 2px; 
+}
+
+header, section, aside {
+    background-color: white;
+}
+
+aside {
+    height: 150px;
 }
  
 header h1 {
