@@ -27,22 +27,22 @@
                 <div class="row">
                     <section class="col-md-11">
                         <h2 class="border-bottom">Contact</h2>
-                        <form id="contact-form">
-                            <ul>
+                        <form id="form-group">
+                            <ul class="list-group list-unstyled">
                                 <li>
                                 <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required="required">
                                 </li>
                                 <li>
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="example@email.com" required="required">
                                 </li>
                                 <li>
                                 <label for="message">Message</label>
-                                <textarea id="message" name="message" required="required"></textarea>
+                                <textarea class="form-control" id="message" name="message" required="required" rows="5"></textarea>
                                 </li>
                             </ul>
-                            <input type="submit">
+                            <input class="btn btn-primary mt-2 mb-3" type="submit">
                         </form>
                     </section>
                     <div class="spacer col-md-1"></div>

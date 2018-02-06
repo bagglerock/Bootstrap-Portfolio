@@ -58,7 +58,11 @@ nav li:first-child {
 footer {
     border-top: solid #4aaaa5 5px;
     height: 75px;
-    padding-top: 40px;
-    background-color: #777;    
-    
+    padding-top: 20px;
+    background-color: #777;  
+    color: white;  
+}
+
+.btn {
+    background-color: #4aaaa5;
 }
