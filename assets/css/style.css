@@ -6,6 +6,11 @@ body {
     color: #777;
 }
 
+a, a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
 h1, h2, h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
@@ -34,14 +39,12 @@ nav ul {
     width: 300px;
 }
 
-nav a{
+nav li{
     border-left: solid #efefef 1px;
-    color: #999;
-    text-decoration: none;
     padding-left: 15px
 }
 
-nav a:first-child {
+nav li:first-child {
     border-left: 0 none;
   }
 
