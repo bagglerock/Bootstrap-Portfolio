@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,29 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
     <div class="container-fluid">
         <header class="row mb-3">
-            <div class="wrapper col-md-4 offset-md-1">
-                <h1 class="font-weight-bold text-center">Oscar Villalta</h1>
-            </div>
-            <nav class="col-md-4 offset-md-2">
-                <ul class="list-inline text-right navbar">
-                    <li><a href="./index.html">About</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
+            <nav class="col-md-10 offset-md-1 navbar navbar-expand-sm navbar-light p-0">
+                <div class="row">
+                    <a class="navbar-brand p-0 text-center" href="#">
+                        <h2>Oscar Villalta</h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav pull-right">
+                            <a class="nav-item nav-link active" href="index.html">About
+                                <span class="sr-only">(current)</span>
+                            </a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
         <div class="wrapper row mb-5">
@@ -49,14 +61,23 @@
             </div>
             <aside class="col-md-3">
                 <h3 class="border-bottom">Contact Me</h3>
-                    <a href="https://github.com/bagglerock" target="_blank"><img class="connect-image" src="./assets/images/github_square_black-128.png" width="60px"></a>
-                    <a href="https://www.linkedin.com/in/oscar-villalta-154196156/" target="_blank"><img class="connect-image" src="./assets/images/linkedin_square_color-128.png" width="60px"></a>
-                    <a href="https://stackexchange.com/users/12666512/oscar-villalta" target="_blank"><img class="connect-image" src="./assets/images/stackoverflow.png" width="60px"></a>
+                <a href="https://github.com/bagglerock" target="_blank">
+                    <img class="connect-image" src="./assets/images/github_square_black-128.png" width="60px">
+                </a>
+                <a href="https://www.linkedin.com/in/oscar-villalta-154196156/" target="_blank">
+                    <img class="connect-image" src="./assets/images/linkedin_square_color-128.png" width="60px">
+                </a>
+                <a href="https://stackexchange.com/users/12666512/oscar-villalta" target="_blank">
+                    <img class="connect-image" src="./assets/images/stackoverflow.png" width="60px">
+                </a>
             </aside>
         </div>
         <footer class="col-md-12 footer text-center fixed-bottom">
-            &copy;2018 Oscar Villalta 
+            &copy;2018 Oscar Villalta
         </footer>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </html>
