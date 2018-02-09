@@ -13,26 +13,33 @@
 <body>
     <div class="container-fluid">
         <header class="row mb-3">
-            <nav class="col-md-10 offset-md-1 navbar navbar-expand-sm navbar-light p-0">
-                <div class="row">
-                    <a class="navbar-brand p-0 text-center" href="#">
-                        <h2>Oscar Villalta</h2>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            <div class="col-md-3 offset-md-1">
+                <h2>Oscar Villalta</h2>
+            </div>
+            <div class="col-md-4 offset-4">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav pull-right">
-                            <a class="nav-item nav-link active" href="index.html">About
-                                <span class="sr-only">(current)</span>
-                            </a>
-                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                            <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        </div>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about.html">About
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
         <div class="wrapper row mb-5">
             <div class="wrapper col-md-7 offset-md-1">
@@ -40,12 +47,11 @@
                     <section class="col-md-11">
                         <h2 class="border-bottom">About Me</h2>
                         <img class="float-left mr-3 mb-3" src="./assets/images/IMG_0331.jpg" width="225" />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellat mollitia deleniti, accusantium
-                            modi dolorem provident distinctio iusto nihil omnis esse magnam velit itaque voluptatum porro
-                            natus dignissimos atque consectetur!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloremque animi, delectus rem impedit
-                            optio. Exercitationem, eveniet asperiores nostrum modi iusto consequatur, cum soluta voluptatem
-                            animi quam tempore dolores aliquid?</p>
+                        <p>LMy name is Oscar and I like long walks on the beach and my favorite color is orange. My hobbies
+                            are painting, cooking, and making profiles using HTML and CSS. </p>
+                        <p>I have two cats, one named Puppy and another one named Missy. Currently I reside in Toms River and
+                            hopefully it will get warm enough to fist pump in Seaside. </p>
+                        <p>It took a couple of tries to make this page but I finally got here so I hope you enjoy!</p>
                     </section>
                     <div class="spacer col-md-1"></div>
                 </div>
@@ -71,4 +77,5 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </html>
