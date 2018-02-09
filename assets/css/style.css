@@ -29,13 +29,13 @@ aside {
     height: 200px;
 }
  
-header nav a h2 {
+header h2 {
     color: white;
     background-color: #4aaaa5;
     margin-bottom: 0;
     height: 100%;
     width: 300px;
-    padding-top: 10px;
+    padding-top: 15px;
     line-height: 1.3;
 }
 
