@@ -27,6 +27,7 @@ header, section, aside {
 
 aside {
     height: 200px;
+    text-align: center;
 }
  
 header h2 {
